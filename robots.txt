@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://constructoraproyectosdelfuturo.vercel.app/sitemap.xml

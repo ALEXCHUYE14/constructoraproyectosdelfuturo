@@ -1,523 +1,562 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-PE">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Empresa líder en construcción en Perú. Más de 15 años de experiencia en construcción residencial, comercial e industrial. Cotiza tu proyecto ahora.">
-  <meta name="keywords" content="construcción, empresa constructora, construcción Perú, construcción Lima, obras civiles, remodelaciones, arquitectura, proyectos industriales, construcción residencial, construcción comercial, acabados premium, estructuras metálicas, ingeniería civil, constructor, builders Peru, construction company Lima">
-  <meta name="author" content="Ingeniería Miguel Flores Construcciones">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="Spanish">
-  <meta name="revisit-after" content="7 days">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Empresa Constructora en Lima y Piura | Constructora Proyectos del Futuro E.I.R.L.</title>
+  <meta name="description" content="Constructora con 15 años de experiencia en Lima y Piura: casas, edificios, locales comerciales, naves industriales y remodelaciones. Supervisión de ingeniero en obra. Cotización gratis en 24 horas.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://constructoraproyectosdelfuturo.vercel.app/">
+  <meta name="theme-color" content="#0F2A44">
   <meta name="geo.region" content="PE-LIM">
   <meta name="geo.placename" content="Lima">
-  <meta name="distribution" content="global">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ingenieria-miguel-flores.netlify.app/">
-  <meta property="og:title" content="Miguel Flores Construcciones | Construyendo el Futuro">
-  <meta property="og:description" content="Empresa líder en construcción en Perú. Más de 15 años transformando proyectos en obras de calidad. Cotiza tu proyecto ahora.">
-  <meta property="og:image" content="https://ingenieria-miguel-flores.netlify.app/img/imagen 1.jpeg">
-  <meta property="og:site_name" content="Ingeniería Miguel Flores Construcciones">
-  <meta property="og:locale" content="es_PE">
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://ingenieria-miguel-flores.netlify.app/">
-  <meta property="twitter:title" content="Miguel Flores Construcciones | Construyendo el Futuro">
-  <meta property="twitter:description" content="Empresa líder en construcción en Perú. Más de 15 años transformando proyectos en obras de calidad.">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://ingenieria-miguel-flores.netlify.app/">
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  
-  <!-- Title -->
-  <title>Miguel Flores Construcciones | Construyendo el Futuro</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
 
+  <!-- Google Search Console: pega aquí tu código de verificación (o verifica usando Google Analytics) -->
+  <!-- <meta name="google-site-verification" content="TU_CODIGO"> -->
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PE">
+  <meta property="og:site_name" content="Constructora Proyectos del Futuro E.I.R.L.">
+  <meta property="og:url" content="https://constructoraproyectosdelfuturo.vercel.app/">
+  <meta property="og:title" content="Constructora Proyectos del Futuro E.I.R.L. | Obras en Lima y Piura">
+  <meta property="og:description" content="Casas, edificios, locales, naves industriales y remodelaciones con supervisión de ingeniero. Cotización gratis en 24 horas.">
+  <meta property="og:image" content="https://constructoraproyectosdelfuturo.vercel.app/assets/img/social/og-proyectos-del-futuro.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Equipo de ingenieros de Constructora Proyectos del Futuro en obra">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Constructora Proyectos del Futuro E.I.R.L. | Obras en Lima y Piura">
+  <meta name="twitter:description" content="Casas, edificios, locales, naves industriales y remodelaciones con supervisión de ingeniero.">
+  <meta name="twitter:image" content="https://constructoraproyectosdelfuturo.vercel.app/assets/img/social/og-proyectos-del-futuro.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/img/brand/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/obras/equipo-ingenieros-obra-piura.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Google Analytics 4: reemplaza G-XXXXXXXXXX por tu ID de medición (Admin > Flujos de datos) -->
+  <script>
+    window.GA_ID = 'G-XXXXXXXXXX';
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    if (!/X{4}/.test(GA_ID)) {
+      var ga = document.createElement('script');
+      ga.async = true;
+      ga.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(ga);
+      gtag('js', new Date());
+      gtag('config', GA_ID);
+    }
+  </script>
+
+  <!-- Datos estructurados para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "GeneralContractor",
+        "@id": "https://constructoraproyectosdelfuturo.vercel.app/#empresa",
+        "name": "Constructora Proyectos del Futuro E.I.R.L.",
+        "legalName": "Constructora Proyectos del Futuro E.I.R.L.",
+        "url": "https://constructoraproyectosdelfuturo.vercel.app/",
+        "logo": "https://constructoraproyectosdelfuturo.vercel.app/assets/img/brand/logo.png",
+        "image": [
+          "https://constructoraproyectosdelfuturo.vercel.app/assets/img/social/og-proyectos-del-futuro.jpg",
+          "https://constructoraproyectosdelfuturo.vercel.app/assets/img/obras/control-calidad-concreto-slump.jpg"
+        ],
+        "description": "Empresa constructora con 15 años de experiencia en construcción residencial, comercial e industrial, remodelaciones, diseño arquitectónico y acabados en Lima y Piura.",
+        "telephone": "+51944455738",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lima",
+          "addressRegion": "Lima",
+          "addressCountry": "PE"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Lima" },
+          { "@type": "City", "name": "Piura" },
+          { "@type": "Country", "name": "Perú" }
+        ],
+        "openingHoursSpecification": [{
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+51944455738",
+          "contactType": "sales",
+          "areaServed": "PE",
+          "availableLanguage": "Spanish"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Servicios de construcción",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Construcción residencial" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Obras comerciales" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Remodelaciones y ampliaciones" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diseño arquitectónico" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Proyectos industriales y estructuras metálicas" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acabados" } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://constructoraproyectosdelfuturo.vercel.app/#web",
+        "url": "https://constructoraproyectosdelfuturo.vercel.app/",
+        "name": "Constructora Proyectos del Futuro E.I.R.L.",
+        "inLanguage": "es-PE",
+        "publisher": { "@id": "https://constructoraproyectosdelfuturo.vercel.app/#empresa" }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "¿La visita técnica y la cotización tienen costo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. La consulta inicial, la evaluación del terreno o espacio y la cotización son gratuitas." } },
+          { "@type": "Question", "name": "¿En cuánto tiempo recibo la cotización?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Respondemos en menos de 24 horas. Si el proyecto requiere visita, coordinamos la fecha en esa primera respuesta." } },
+          { "@type": "Question", "name": "¿En qué ciudades trabajan?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Tenemos base en Lima y ejecutamos obras en Piura y en las principales ciudades del Perú." } },
+          { "@type": "Question", "name": "¿Cómo sé cómo avanza mi obra?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Enviamos reportes semanales con fotos fechadas y georreferenciadas, avance físico y gastos frente al presupuesto." } },
+          { "@type": "Question", "name": "¿El presupuesto incluye materiales y plazos?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. El presupuesto detalla partidas, materiales, mano de obra y cronograma, para que sepas qué pagas y cuándo se ejecuta." } },
+          { "@type": "Question", "name": "¿Dan garantía por la obra?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. Cada entrega incluye garantía por escrito y soporte post-entrega." } }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
-<!-- NAVBAR -->
-<nav id="navbar">
-  <a href="#" class="nav-logo">
-    <div class="logo-icon">
-      <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22" fill="none" stroke="#0A0A0A" stroke-width="2"/></svg>
-    </div>
-    <div class="logo-text">
-      <span class="logo-name">Ingenieria Miguel Flores</span>
-      <span class="logo-sub">Construcciones</span>
-    </div>
-  </a>
+<a class="skip" href="#contenido">Saltar al contenido</a>
 
-  <ul class="nav-links">
-    <li><a href="#nosotros">Nosotros</a></li>
-    <li><a href="#servicios">Servicios</a></li>
-    <li><a href="#proyectos">Proyectos</a></li>
-    <li><a href="#proceso">Proceso</a></li>
-    <li><a href="#testimonios">Clientes</a></li>
-    <li><a href="#cotizacion" class="nav-cta">Cotizar Ahora</a></li>
-  </ul>
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
-  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
-    <span></span><span></span><span></span>
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a href="#" class="brand" aria-label="Constructora Proyectos del Futuro E.I.R.L., inicio">
+      <span class="brand-mark"><img src="assets/img/brand/logo-icono.webp" width="96" height="96" alt=""></span>
+      <span class="brand-text">
+        <strong>Proyectos del Futuro</strong>
+        <span>Constructora E.I.R.L.</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#calidad">Cómo trabajamos</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#preguntas">Preguntas</a>
+      <a href="#cotizacion" class="btn btn-small">Pedir cotización</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
   </div>
-</nav>
+</header>
 
-<!-- MOBILE MENU -->
-<div class="overlay" id="overlay" onclick="toggleMenu()"></div>
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#nosotros" onclick="toggleMenu()">Nosotros</a>
-  <a href="#servicios" onclick="toggleMenu()">Servicios</a>
-  <a href="#proyectos" onclick="toggleMenu()">Proyectos</a>
-  <a href="#proceso" onclick="toggleMenu()">Proceso</a>
-  <a href="#testimonios" onclick="toggleMenu()">Clientes</a>
-  <a href="#cotizacion" onclick="toggleMenu()" style="color:var(--gold)">Cotizar Ahora →</a>
-</div>
+<main id="contenido">
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-content">
-    <div class="hero-badge">
-      <span></span>
-      Empresa líder en construcción en Perú
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-media">
+      <img src="assets/img/obras/equipo-ingenieros-obra-piura.webp" width="1160" height="880"
+           alt="Equipo de ingenieros y maestro de obra de Constructora Proyectos del Futuro junto a la bomba de concreto en una obra de veredas en Piura"
+           fetchpriority="high">
     </div>
-    <h1 class="hero-title">
-      Construimos<br>
-      <span>Tu Visión</span>
-      En Realidad
-    </h1>
-    <p class="hero-sub">Más de 15 años transformando proyectos en obras de calidad. Desde casas residenciales hasta complejos comerciales, ejecutamos con precisión y excelencia.</p>
-    <div class="hero-btns">
-      <a href="#cotizacion" class="btn-primary">
-        Obtener Cotización
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </a>
-      <a href="#proyectos" class="btn-outline">
-        Ver Proyectos
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/></svg>
-      </a>
-    </div>
-  </div>
-  <div class="hero-stats">
-    <div class="stat-item">
-      <div class="stat-num" data-count="320">0</div>
-      <div class="stat-label">Proyectos Completados</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num" data-count="15">0</div>
-      <div class="stat-label">Años de Experiencia</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num" data-count="98">0</div>
-      <div class="stat-label">% Clientes Satisfechos</div>
-    </div>
-  </div>
-  <div class="scroll-indicator">
-    <span>Scroll</span>
-    <div></div>
-  </div>
-</section>
 
-<!-- MARQUEE -->
-<div class="marquee-strip">
-  <div class="marquee-inner" id="marquee">
-    <div class="marquee-item"><span class="marquee-dot"></span> Construcción Residencial</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Obras Comerciales</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Remodelaciones</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Diseño y Arquitectura</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Acabados Premium</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Estructuras Metálicas</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Proyectos Industriales</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Construcción Residencial</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Obras Comerciales</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Remodelaciones</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Diseño y Arquitectura</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Acabados Premium</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Estructuras Metálicas</div>
-    <div class="marquee-item"><span class="marquee-dot"></span> Proyectos Industriales</div>
-  </div>
-</div>
-
-<!-- NOSOTROS -->
-<section id="nosotros">
-  <div class="container">
-    <div class="about-grid reveal">
-      <div class="about-img-wrap">
-        <img class="about-img" src="img/imagen 1.jpeg" alt="Construcción">
-        <div class="about-img-deco"></div>
-        <div class="about-badge-img">
-          <strong>15+</strong>
-          <span>Años de<br>Experiencia</span>
-        </div>
-      </div>
-      <div class="about-text">
-        <div class="section-label">Quiénes Somos</div>
-        <h2 class="section-title">Calidad que<br>Habla por Sí Sola</h2>
-        <p class="section-desc">En Ingenieria Miguel Flores Construcciones, somos mucho más que una empresa constructora. Somos un equipo comprometido con hacer realidad cada uno de tus sueños con la más alta calidad, transparencia y profesionalismo.</p>
-        <p style="color:var(--gray);line-height:1.75;font-size:15px;margin-top:16px;font-weight:300;">Desde Lima, hemos ejecutado proyectos residenciales, comerciales e industriales , siempre cumpliendo con los plazos y superando las expectativas de nuestros clientes.</p>
-        <div class="values-grid">
-          <div class="value-card">
-            <div class="value-icon">🏗️</div>
-            <div class="value-title">Experiencia</div>
-            <div class="value-text">15 años ejecutando proyectos de alta complejidad con equipos especializados.</div>
-          </div>
-          <div class="value-card">
-            <div class="value-icon">✅</div>
-            <div class="value-title">Calidad</div>
-            <div class="value-text">Materiales certificados y procesos de control de calidad en cada etapa.</div>
-          </div>
-          <div class="value-card">
-            <div class="value-icon">📅</div>
-            <div class="value-title">Puntualidad</div>
-            <div class="value-text">Compromiso con los plazos acordados sin comprometer la excelencia.</div>
-          </div>
-          <div class="value-card">
-            <div class="value-icon">🤝</div>
-            <div class="value-title">Confianza</div>
-            <div class="value-text">Transparencia total en presupuestos, avances y comunicación.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICIOS -->
-<section id="servicios">
-  <div class="container">
-    <div class="services-header reveal">
-      <div>
-        <div class="section-label">Lo Que Hacemos</div>
-        <h2 class="section-title">Nuestros Servicios</h2>
-      </div>
-      <p class="section-desc" style="max-width:360px;font-size:14px;">Ofrecemos soluciones integrales de construcción para proyectos de cualquier escala y complejidad.</p>
-    </div>
-    <div class="services-grid reveal">
-      <div class="service-card">
-        <div class="service-num">01</div>
-        <div class="service-icon">🏠</div>
-        <h3 class="service-title">Construcción Residencial</h3>
-        <p class="service-desc">Diseñamos y construimos casas, departamentos y condominios con los más altos estándares de calidad y acabados premium que se adaptan a tu estilo de vida.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-      <div class="service-card">
-        <div class="service-num">02</div>
-        <div class="service-icon">🏢</div>
-        <h3 class="service-title">Obras Comerciales</h3>
-        <p class="service-desc">Edificios de oficinas, centros comerciales, hoteles y locales comerciales. Ejecutamos con precisión técnica para maximizar la funcionalidad de tu inversión.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-      <div class="service-card">
-        <div class="service-num">03</div>
-        <div class="service-icon">🔨</div>
-        <h3 class="service-title">Remodelaciones</h3>
-        <p class="service-desc">Transformamos espacios existentes con reformas integrales. Actualizamos tu propiedad respetando su estructura y potenciando su valor de mercado.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-      <div class="service-card">
-        <div class="service-num">04</div>
-        <div class="service-icon">📐</div>
-        <h3 class="service-title">Diseño Arquitectónico</h3>
-        <p class="service-desc">Planos, renders 3D y asesoría arquitectónica completa. Creamos espacios que combinan funcionalidad estética y cumplimiento normativo.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-      <div class="service-card">
-        <div class="service-num">05</div>
-        <div class="service-icon">🏭</div>
-        <h3 class="service-title">Proyectos Industriales</h3>
-        <p class="service-desc">Galpones, almacenes, plantas industriales y estructuras metálicas. Soluciones robustas diseñadas para las exigencias del sector productivo.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-      <div class="service-card">
-        <div class="service-num">06</div>
-        <div class="service-icon">🎨</div>
-        <h3 class="service-title">Acabados Premium</h3>
-        <p class="service-desc">Pintura, revestimientos, pisos, techos y acabados finos. El detalle que transforma una obra ordinaria en un espacio extraordinario y duradero.</p>
-        <a href="#cotizacion" class="service-link">Cotizar → </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PROYECTOS -->
-<section id="proyectos">
-  <div class="container">
-    <div class="projects-header reveal">
-      <div>
-        <div class="section-label">Trabajos Realizados</div>
-        <h2 class="section-title">Nuestros Proyectos</h2>
-      </div>
-      <div class="filter-tabs">
-        <button class="filter-tab active" onclick="filterProjects('todos', this)">Todos</button>
-        <button class="filter-tab" onclick="filterProjects('residencial', this)">Residencial</button>
-        <button class="filter-tab" onclick="filterProjects('comercial', this)">Comercial</button>
-        <button class="filter-tab" onclick="filterProjects('industrial', this)">Industrial</button>
-      </div>
-    </div>
-    <div class="projects-grid reveal" id="projectsGrid">
-      <div class="project-card" data-cat="residencial">
-        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80" alt="Casa Moderna">
-        <div class="project-overlay">
-          <div class="project-cat">Residencial</div>
-          <div class="project-name">Villa San Isidro</div>
-          <div class="project-info">
-            <span>📍 Lima</span>
-            <span>|</span>
-            <span>480 m²</span>
-            <span>|</span>
-            <span>2023</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card" data-cat="comercial">
-        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80" alt="Edificio Comercial">
-        <div class="project-overlay">
-          <div class="project-cat">Comercial</div>
-          <div class="project-name">Torre Empresarial</div>
-          <div class="project-info">
-            <span>📍 Miraflores</span>
-            <span>|</span>
-            <span>12 Pisos</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card" data-cat="industrial">
-        <img src="https://images.unsplash.com/photo-1565008576549-57569a49371d?w=700&q=80" alt="Planta Industrial">
-        <div class="project-overlay">
-          <div class="project-cat">Industrial</div>
-          <div class="project-name">Almacén Logístico</div>
-          <div class="project-info">
-            <span>📍 Callao</span>
-            <span>|</span>
-            <span>3,200 m²</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card" data-cat="residencial">
-        <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=700&q=80" alt="Departamento">
-        <div class="project-overlay">
-          <div class="project-cat">Residencial</div>
-          <div class="project-name">Condominio Las Palmas</div>
-          <div class="project-info">
-            <span>📍 Surco</span>
-            <span>|</span>
-            <span>24 Unidades</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card" data-cat="comercial">
-        <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=700&q=80" alt="Centro Comercial">
-        <div class="project-overlay">
-          <div class="project-cat">Comercial</div>
-          <div class="project-name">Centro Comercial Norte</div>
-          <div class="project-info">
-            <span>📍 Los Olivos</span>
-            <span>|</span>
-            <span>8,000 m²</span>
-          </div>
-        </div>
-      </div>
-      <div class="project-card" data-cat="residencial">
-        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80" alt="Casa Premium">
-        <div class="project-overlay">
-          <div class="project-cat">Residencial</div>
-          <div class="project-name">Residencia La Molina</div>
-          <div class="project-info">
-            <span>📍 La Molina</span>
-            <span>|</span>
-            <span>620 m²</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PROCESO -->
-<section id="proceso">
-  <div class="container">
-    <div class="reveal" style="text-align:center;margin-bottom:0">
-      <div class="section-label" style="justify-content:center">Cómo Trabajamos</div>
-      <h2 class="section-title">Nuestro Proceso</h2>
-      <p class="section-desc" style="margin:0 auto;text-align:center">Un proceso claro y estructurado que garantiza resultados excepcionales en cada proyecto.</p>
-    </div>
-    <div class="process-grid reveal">
-      <div class="process-step">
-        <div class="step-circle"><div class="step-icon">💬</div></div>
-        <div class="step-title">Consulta Inicial</div>
-        <p class="step-desc">Escuchamos tus necesidades, evaluamos el terreno o espacio y definimos el alcance del proyecto sin costo.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-circle"><div class="step-icon">📋</div></div>
-        <div class="step-title">Diseño y Cotización</div>
-        <p class="step-desc">Elaboramos planos técnicos, renders y un presupuesto detallado con tiempos y materiales especificados.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-circle"><div class="step-icon">⚙️</div></div>
-        <div class="step-title">Ejecución</div>
-        <p class="step-desc">Iniciamos la obra con nuestro equipo especializado, con supervisión constante y reportes de avance semanales.</p>
-      </div>
-      <div class="process-step">
-        <div class="step-circle"><div class="step-icon">🎯</div></div>
-        <div class="step-title">Entrega y Garantía</div>
-        <p class="step-desc">Entregamos tu proyecto terminado a tiempo, con todas las garantías y soporte post-entrega incluidos.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIOS -->
-<section id="testimonios">
-  <div class="container">
-    <div class="reveal">
-      <div class="section-label">Lo Que Dicen</div>
-      <h2 class="section-title">Nuestros Clientes</h2>
-    </div>
-    <div class="testimonials-wrap reveal">
-      <div class="carousel-progress"><div class="carousel-progress-bar" id="progressBar"></div></div>
-      <div style="height:16px"></div>
-      <div class="carousel-viewport">
-        <div class="testimonials-track" id="testimonialsTrack">
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"Contratamos a Miguel Flores para construir nuestra casa en San Isidro y el resultado superó todas nuestras expectativas. Trabajo impecable, tiempos cumplidos y comunicación excelente en todo momento. Sin duda los mejores del mercado."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">CR</div>
-              <div>
-                <div class="author-name">Carlos Rivas</div>
-                <div class="author-role">Propietario Residencial · San Isidro, Lima</div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"Remodelamos completamente nuestro local comercial en Miraflores. El equipo fue muy profesional, cuidadoso con los detalles y terminaron antes del plazo acordado. El resultado fue increíble. Muy recomendables."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">LP</div>
-              <div>
-                <div class="author-name">Lucía Paredes</div>
-                <div class="author-role">Empresaria · Miraflores, Lima</div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"El proyecto de nuestra planta industrial en el Callao fue ejecutado con una precisión técnica impresionante. Presupuesto transparente, sin sorpresas y con reportes semanales de avance. Son los mejores en lo que hacen."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">RM</div>
-              <div>
-                <div class="author-name">Roberto Mendoza</div>
-                <div class="author-role">Gerente General · Callao, Lima</div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"Construyeron nuestro edificio de departamentos en Surco en tiempo récord. La calidad de los acabados es excepcional y todos nuestros inquilinos están encantados. Definitivamente volvería a trabajar con Miguel Flores Construcciones."</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">GT</div>
-              <div>
-                <div class="author-name">Gloria Torres</div>
-                <div class="author-role">Inversionista Inmobiliaria · Santiago de Surco</div>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"La remodelación de mi casa fue una experiencia excelente de principio a fin. Miguel personalmente supervisó cada detalle. El resultado es exactamente lo que imaginaba, incluso mejor. ¡100% recomendados sin dudarlo!"</p>
-            <div class="testimonial-author">
-              <div class="author-avatar">AV</div>
-              <div>
-                <div class="author-name">Andrea Vásquez</div>
-                <div class="author-role">Arquitecta · La Molina, Lima</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-controls">
-        <div class="carousel-dots" id="carouselDots"></div>
-        <div class="carousel-arrows">
-          <button class="carousel-arrow" id="prevBtn" aria-label="Anterior">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
-          </button>
-          <button class="carousel-arrow" id="nextBtn" aria-label="Siguiente">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- COTIZACIÓN -->
-<section id="cotizacion">
-  <div class="container">
-    <div class="quote-container reveal">
-      <div class="quote-info">
-        <div class="section-label">Presupuesto Gratis</div>
-        <h3>Obtén Tu<br>Cotización<br><span style="color:var(--gold)">Ahora</span></h3>
-        <p>Completa el formulario y nos comunicaremos contigo en menos de 24 horas con un presupuesto detallado y personalizado para tu proyecto.</p>
-        <div class="contact-cards">
-          <a href="https://wa.me/51944455738" target="_blank" class="contact-card">
-            <div class="contact-card-icon">📱</div>
-            <div class="contact-card-text">
-              <strong>WhatsApp Directo</strong>
-              <span>+51 944 455 738 — Respuesta inmediata</span>
-            </div>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>
+          <span class="hero-kicker">Empresa constructora en Lima y Piura</span>
+          <span class="hero-title" data-split>Obras bien construidas, con un ingeniero en campo todos los días.</span>
+        </h1>
+        <p class="hero-lead">Casas, edificios, locales y naves industriales. Planos, presupuesto cerrado y ejecución con el mismo equipo: sabes qué se construye, cuánto cuesta y cuándo se entrega.</p>
+        <div class="hero-actions">
+          <a href="#cotizacion" class="btn">Pedir cotización gratis</a>
+          <a href="https://wa.me/51944455738?text=Hola%2C%20quisiera%20cotizar%20un%20proyecto" class="btn btn-ghost" target="_blank" rel="noopener">
+            <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L.1 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.4c6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.3-6.2-3.5-8.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.9 9.9 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.5-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>
+            Escribir por WhatsApp
           </a>
-          <a href="tel:+51944455738" class="contact-card">
-            <div class="contact-card-icon">📞</div>
-            <div class="contact-card-text">
-              <strong>Llamar Ahora</strong>
-              <span>+51 944 455 738 — Lun–Sáb 8am–6pm</span>
-            </div>
-          </a>
-          <div class="contact-card">
-            <div class="contact-card-icon">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div class="contact-card-text">
-              <strong>Cobertura Nacional</strong>
-              <span>Lima y principales ciudades del Perú</span>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div class="quote-form">
-        <div class="form-body" id="formBody">
-          <div class="form-title">Formulario de Cotización</div>
-          <p class="form-sub">* Todos los campos son importantes para preparar tu presupuesto</p>
+      <div class="hero-bottom">
+        <dl class="facts">
+          <div><dt>Años construyendo</dt><dd data-count="15">15</dd></div>
+          <div><dt>Obras entregadas</dt><dd data-count="320" data-prefix="+">+320</dd></div>
+          <div><dt>Clientes satisfechos</dt><dd data-count="98" data-suffix="&thinsp;%">98&thinsp;%</dd></div>
+        </dl>
+        <p class="hero-caption">
+          <span class="cota" aria-hidden="true"></span>
+          Supervisión de vaciado de concreto, Piura, febrero 2026
+        </p>
+      </div>
+    </div>
+  </section>
 
+  <!-- FRANJA DE SERVICIOS -->
+  <div class="band" aria-hidden="true">
+    <div class="band-track">
+      <span>Construcción residencial</span><span>Obras comerciales</span><span>Remodelaciones</span><span>Diseño arquitectónico</span><span>Naves industriales</span><span>Estructuras metálicas</span><span>Acabados</span>
+      <span>Construcción residencial</span><span>Obras comerciales</span><span>Remodelaciones</span><span>Diseño arquitectónico</span><span>Naves industriales</span><span>Estructuras metálicas</span><span>Acabados</span>
+    </div>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios" aria-labelledby="servicios-titulo">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="servicios-titulo">Servicios de construcción</h2>
+        <p>Nos encargamos del proyecto completo o de la etapa que necesites. Cada obra tiene un ingeniero responsable y un presupuesto por partidas.</p>
+      </header>
+
+      <div class="services">
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 22 24 8l18 14"/><path d="M11 18v22h26V18"/><path d="M20 40V28h8v12"/></svg>
+          <h3>Construcción residencial</h3>
+          <p>Casas, departamentos y condominios, desde la cimentación hasta los acabados.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Casa Unifamiliar">Cotizar una casa</a>
+        </article>
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 42V8h18v34"/><path d="M28 18h10v24"/><path d="M6 42h36"/><path d="M15 14h3M21 14h2M15 20h3M21 20h2M15 26h3M21 26h2M15 32h3M21 32h2M32 24h2M32 30h2"/></svg>
+          <h3>Obras comerciales</h3>
+          <p>Oficinas, locales, hoteles y centros comerciales pensados para operar desde el primer día.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Local Comercial">Cotizar un local</a>
+        </article>
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40 30 18"/><path d="m26 14 8 8 6-6-8-8z"/><path d="M8 40l4 0 0-4"/></svg>
+          <h3>Remodelaciones y ampliaciones</h3>
+          <p>Reformas integrales y segundos pisos, revisando primero la estructura existente.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Remodelación / Ampliación">Cotizar una remodelación</a>
+        </article>
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 8h32v32H8z"/><path d="M8 24h14v16"/><path d="M28 8v10h12"/><path d="M4 44h8M4 42v4M12 42v4"/></svg>
+          <h3>Diseño arquitectónico</h3>
+          <p>Planos de arquitectura y especialidades, renders 3D y asesoría normativa.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Otro">Cotizar planos</a>
+        </article>
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 42h40"/><path d="M8 42V22l16-10 16 10v20"/><path d="M8 22h32M16 17v25M32 17v25M16 30l16-8M16 22l16 8"/></svg>
+          <h3>Proyectos industriales</h3>
+          <p>Almacenes, galpones, plantas y estructuras metálicas para uso intensivo.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Almacén / Planta Industrial">Cotizar una nave</a>
+        </article>
+        <article class="service">
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 8h24v10H10z"/><path d="M34 13h6v10H22v6"/><path d="M19 29h6v13h-6z"/></svg>
+          <h3>Acabados</h3>
+          <p>Pisos, revestimientos, cielos rasos y pintura, con materiales que eliges y apruebas.</p>
+          <a href="#cotizacion" class="service-link" data-tipo="Acabados y Pintura">Cotizar acabados</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEL PLANO A LA OBRA (comparador interactivo) -->
+  <section class="section section-alt" id="plano" aria-labelledby="plano-titulo">
+    <div class="wrap">
+      <header class="section-head section-head-row">
+        <div>
+          <h2 id="plano-titulo">Del plano a la obra terminada</h2>
+          <p>Diseñamos cada proyecto antes de construirlo, para que veas el resultado desde el primer día. Desliza para comparar.</p>
+        </div>
+      </header>
+
+      <div class="ba" id="ba" style="--pos: 50%">
+        <img class="ba-after" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=75&auto=format" width="1600" height="900" loading="lazy" alt="Casa moderna de dos pisos terminada, con fachada de madera y vidrio">
+        <div class="ba-before" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=75&auto=format" width="1600" height="900" loading="lazy" alt="">
+        </div>
+        <span class="ba-tag ba-tag-before" aria-hidden="true">Diseño</span>
+        <span class="ba-tag ba-tag-after" aria-hidden="true">Obra terminada</span>
+        <div class="ba-handle" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg>
+        </div>
+        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Comparar diseño y obra terminada">
+      </div>
+    </div>
+  </section>
+
+  <!-- CALIDAD EN OBRA -->
+  <section class="section section-dark" id="calidad" aria-labelledby="calidad-titulo">
+    <div class="wrap quality">
+      <figure class="quality-photo">
+        <img src="assets/img/obras/control-calidad-concreto-slump.webp" width="725" height="885" loading="lazy"
+             alt="Técnico realizando la prueba de asentamiento (cono de Abrams) al concreto premezclado antes del vaciado">
+        <figcaption>Prueba de asentamiento al concreto premezclado antes del vaciado.</figcaption>
+      </figure>
+      <div class="quality-copy">
+        <h2 id="calidad-titulo">El concreto se prueba antes de entrar a tu obra</h2>
+        <p>La calidad de una construcción se decide en detalles que el cliente no siempre ve. Por eso los controlamos y te los mostramos.</p>
+        <ul class="checks">
+          <li>
+            <strong>Prueba de asentamiento en cada mixer.</strong>
+            Si el concreto no cumple el diseño de mezcla, no se vacía.
+          </li>
+          <li>
+            <strong>Ingeniero residente en obra.</strong>
+            Supervisa encofrados, acero y vaciados, no solo la entrega final.
+          </li>
+          <li>
+            <strong>Reporte semanal con fotos fechadas y georreferenciadas.</strong>
+            Ves el avance real sin tener que ir a la obra.
+          </li>
+          <li>
+            <strong>Materiales certificados.</strong>
+            Compras sustentadas por partida, sin sobrecostos escondidos.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos" aria-labelledby="proyectos-titulo">
+    <div class="wrap">
+      <header class="section-head section-head-row">
+        <div>
+          <h2 id="proyectos-titulo">Proyectos realizados</h2>
+          <p>Una muestra de obras residenciales, comerciales e industriales.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar proyectos">
+          <button class="filter is-active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter" data-filter="residencial" aria-pressed="false">Residencial</button>
+          <button class="filter" data-filter="comercial" aria-pressed="false">Comercial</button>
+          <button class="filter" data-filter="industrial" aria-pressed="false">Industrial</button>
+        </div>
+      </header>
+
+      <div class="projects" id="projects">
+        <article class="project project-wide" data-cat="residencial">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1100&q=75&auto=format" width="1100" height="620" loading="lazy" alt="Fachada de la Villa San Isidro, casa moderna de dos pisos construida en Lima">
+          <div class="project-meta">
+            <p class="project-cat">Residencial, 2023</p>
+            <h3>Villa San Isidro</h3>
+            <p class="project-spec"><span>San Isidro, Lima</span><span class="dim">480 m²</span></p>
+          </div>
+        </article>
+        <article class="project" data-cat="comercial">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=75&auto=format" width="700" height="620" loading="lazy" alt="Torre empresarial de oficinas de 12 pisos en Miraflores">
+          <div class="project-meta">
+            <p class="project-cat">Comercial</p>
+            <h3>Torre Empresarial</h3>
+            <p class="project-spec"><span>Miraflores, Lima</span><span class="dim">12 pisos</span></p>
+          </div>
+        </article>
+        <article class="project" data-cat="industrial">
+          <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=700&q=75&auto=format" width="700" height="620" loading="lazy" alt="Almacén logístico con estructura metálica en el Callao">
+          <div class="project-meta">
+            <p class="project-cat">Industrial</p>
+            <h3>Almacén Logístico</h3>
+            <p class="project-spec"><span>Callao</span><span class="dim">3,200 m²</span></p>
+          </div>
+        </article>
+        <article class="project" data-cat="residencial">
+          <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=700&q=75&auto=format" width="700" height="620" loading="lazy" alt="Condominio Las Palmas, conjunto residencial de 24 departamentos en Surco">
+          <div class="project-meta">
+            <p class="project-cat">Residencial</p>
+            <h3>Condominio Las Palmas</h3>
+            <p class="project-spec"><span>Santiago de Surco, Lima</span><span class="dim">24 unidades</span></p>
+          </div>
+        </article>
+        <article class="project" data-cat="comercial">
+          <img src="https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=700&q=75&auto=format" width="700" height="620" loading="lazy" alt="Centro Comercial Norte en Los Olivos">
+          <div class="project-meta">
+            <p class="project-cat">Comercial</p>
+            <h3>Centro Comercial Norte</h3>
+            <p class="project-spec"><span>Los Olivos, Lima</span><span class="dim">8,000 m²</span></p>
+          </div>
+        </article>
+        <article class="project" data-cat="residencial">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=75&auto=format" width="700" height="620" loading="lazy" alt="Interior de la Residencia La Molina con acabados de piso y doble altura">
+          <div class="project-meta">
+            <p class="project-cat">Residencial</p>
+            <h3>Residencia La Molina</h3>
+            <p class="project-spec"><span>La Molina, Lima</span><span class="dim">620 m²</span></p>
+          </div>
+        </article>
+        <aside class="project-cta">
+          <h3>¿Tienes un proyecto parecido?</h3>
+          <p>Cuéntanos qué quieres construir y te enviamos un presupuesto por partidas en menos de 24 horas.</p>
+          <a href="#cotizacion" class="btn">Pedir cotización gratis</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section section-alt" id="proceso" aria-labelledby="proceso-titulo">
+    <div class="wrap">
+      <header class="section-head">
+        <h2 id="proceso-titulo">De la primera llamada a la entrega de llaves</h2>
+        <p>Cuatro etapas, cada una con un entregable claro antes de pasar a la siguiente.</p>
+      </header>
+      <ol class="steps">
+        <li>
+          <h3>Visita y evaluación</h3>
+          <p>Escuchamos lo que necesitas, revisamos el terreno o el espacio y definimos el alcance. Sin costo.</p>
+        </li>
+        <li>
+          <h3>Planos y presupuesto</h3>
+          <p>Recibes planos, renders y un presupuesto por partidas con materiales y cronograma.</p>
+        </li>
+        <li>
+          <h3>Ejecución supervisada</h3>
+          <p>Nuestro equipo construye con ingeniero residente y te envía reportes de avance cada semana.</p>
+        </li>
+        <li>
+          <h3>Entrega y garantía</h3>
+          <p>Entregamos en la fecha pactada, con garantía por escrito y soporte post-entrega.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section" id="testimonios" aria-labelledby="testimonios-titulo">
+    <div class="wrap">
+      <header class="section-head section-head-row">
+        <h2 id="testimonios-titulo">Lo que dicen nuestros clientes</h2>
+        <div class="slider-btns">
+          <button class="round-btn" id="prevBtn" aria-label="Testimonio anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="round-btn" id="nextBtn" aria-label="Testimonio siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+      </header>
+
+      <div class="quotes" id="quotes" tabindex="0" aria-label="Testimonios">
+        <figure class="quote">
+          <blockquote>“Construyeron nuestra casa en San Isidro y el resultado superó lo que esperábamos. Cumplieron los tiempos y siempre supimos en qué etapa estaba la obra.”</blockquote>
+          <figcaption><strong>Carlos Rivas</strong>Propietario, San Isidro</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Remodelamos nuestro local en Miraflores. Fueron cuidadosos con los detalles y terminaron antes del plazo acordado.”</blockquote>
+          <figcaption><strong>Lucía Paredes</strong>Empresaria, Miraflores</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“En la planta del Callao el presupuesto fue transparente, sin sorpresas, y cada semana recibimos el reporte de avance.”</blockquote>
+          <figcaption><strong>Roberto Mendoza</strong>Gerente general, Callao</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Hicieron nuestro edificio de departamentos en Surco en muy buen tiempo. Los acabados son de primera y los inquilinos están contentos.”</blockquote>
+          <figcaption><strong>Gloria Torres</strong>Inversionista inmobiliaria, Surco</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“Miguel supervisó personalmente cada detalle de la remodelación. Quedó exactamente como la imaginaba.”</blockquote>
+          <figcaption><strong>Andrea Vásquez</strong>Arquitecta, La Molina</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section class="section section-alt" id="preguntas" aria-labelledby="faq-titulo">
+    <div class="wrap faq-grid">
+      <header class="section-head">
+        <h2 id="faq-titulo">Preguntas frecuentes</h2>
+        <p>¿No encuentras tu respuesta? <a href="https://wa.me/51944455738" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>.</p>
+      </header>
+      <div class="faq">
+        <details>
+          <summary>¿La visita técnica y la cotización tienen costo?</summary>
+          <p>No. La consulta inicial, la evaluación del terreno o espacio y la cotización son gratuitas.</p>
+        </details>
+        <details>
+          <summary>¿En cuánto tiempo recibo la cotización?</summary>
+          <p>Respondemos en menos de 24 horas. Si el proyecto requiere visita, coordinamos la fecha en esa primera respuesta.</p>
+        </details>
+        <details>
+          <summary>¿En qué ciudades trabajan?</summary>
+          <p>Tenemos base en Lima y ejecutamos obras en Piura y en las principales ciudades del Perú.</p>
+        </details>
+        <details>
+          <summary>¿Cómo sé cómo avanza mi obra?</summary>
+          <p>Enviamos reportes semanales con fotos fechadas y georreferenciadas, avance físico y gastos frente al presupuesto.</p>
+        </details>
+        <details>
+          <summary>¿El presupuesto incluye materiales y plazos?</summary>
+          <p>Sí. El presupuesto detalla partidas, materiales, mano de obra y cronograma, para que sepas qué pagas y cuándo se ejecuta.</p>
+        </details>
+        <details>
+          <summary>¿Dan garantía por la obra?</summary>
+          <p>Sí. Cada entrega incluye garantía por escrito y soporte post-entrega.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- COTIZACIÓN -->
+  <section class="section" id="cotizacion" aria-labelledby="cotizacion-titulo">
+    <div class="wrap quote-grid">
+      <div class="quote-intro">
+        <h2 id="cotizacion-titulo">Cotiza tu proyecto</h2>
+        <p>Cuéntanos qué quieres construir. Te respondemos en menos de 24 horas con un presupuesto detallado o para coordinar la visita.</p>
+        <ul class="contact-list">
+          <li>
+            <a href="https://wa.me/51944455738" target="_blank" rel="noopener">
+              <span>WhatsApp</span>
+              <strong>+51 944 455 738</strong>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+51944455738">
+              <span>Teléfono</span>
+              <strong>+51 944 455 738</strong>
+            </a>
+          </li>
+          <li>
+            <div>
+              <span>Horario</span>
+              <strong>Lunes a sábado, 8:00 a 18:00</strong>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span>Cobertura</span>
+              <strong>Lima, Piura y principales ciudades del Perú</strong>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <form id="quoteForm" novalidate>
           <div class="form-grid">
-            <div class="form-field">
-              <label>Nombre Completo *</label>
-              <input type="text" id="nombre" placeholder="Ej: Juan García" required>
+            <div class="field">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" autocomplete="name" placeholder="Juan García" required>
             </div>
-            <div class="form-field">
-              <label>Celular / WhatsApp *</label>
-              <input type="tel" id="celular" placeholder="Ej: 999 888 777" required>
+            <div class="field">
+              <label for="celular">Celular o WhatsApp</label>
+              <input type="tel" id="celular" name="celular" autocomplete="tel" inputmode="tel" placeholder="999 888 777" required>
             </div>
-            <div class="form-field">
-              <label>Correo Electrónico</label>
-              <input type="email" id="email" placeholder="tu@email.com">
+            <div class="field">
+              <label for="email">Correo <span class="opt">(opcional)</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="tu@correo.com">
             </div>
-            <div class="form-field">
-              <label>Distrito / Ciudad *</label>
-              <input type="text" id="distrito" placeholder="Ej: San Isidro, Lima" required>
+            <div class="field">
+              <label for="distrito">Distrito y ciudad</label>
+              <input type="text" id="distrito" name="distrito" placeholder="San Isidro, Lima" required>
             </div>
-            <div class="form-field full">
-              <label>Tipo de Proyecto *</label>
-              <select id="tipo">
+            <div class="field full">
+              <label for="tipo">Tipo de proyecto</label>
+              <select id="tipo" name="tipo" required>
                 <option value="" disabled selected>Selecciona una opción</option>
                 <option>Casa Unifamiliar</option>
                 <option>Edificio Multifamiliar</option>
@@ -529,171 +568,108 @@
                 <option>Otro</option>
               </select>
             </div>
-            <div class="form-field">
-              <label>Área Estimada (m²)</label>
-              <input type="number" id="area" placeholder="Ej: 120">
+            <div class="field">
+              <label for="area">Área estimada (m²) <span class="opt">(opcional)</span></label>
+              <input type="number" id="area" name="area" min="1" inputmode="numeric" placeholder="120">
             </div>
-            <div class="form-field">
-              <label>Plazo Deseado</label>
-              <select id="plazo">
+            <div class="field">
+              <label for="plazo">¿Cuándo quieres empezar?</label>
+              <select id="plazo" name="plazo">
                 <option value="" disabled selected>Seleccionar</option>
                 <option>Lo antes posible</option>
-                <option>1–3 meses</option>
-                <option>3–6 meses</option>
-                <option>Más de 6 meses</option>
-                <option>Aún no definido</option>
+                <option>En 1 a 3 meses</option>
+                <option>En 3 a 6 meses</option>
+                <option>En más de 6 meses</option>
+                <option>Aún no lo sé</option>
               </select>
             </div>
 
-            <div class="form-field full">
-              <label>Servicios de Interés</label>
-              <div class="checkbox-group">
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="construccion">
-                  <span class="checkmark"></span>
-                  Construcción Nueva
-                </label>
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="remodelacion">
-                  <span class="checkmark"></span>
-                  Remodelación
-                </label>
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="diseno">
-                  <span class="checkmark"></span>
-                  Diseño Arquitectónico
-                </label>
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="acabados">
-                  <span class="checkmark"></span>
-                  Acabados y Pintura
-                </label>
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="estructuras">
-                  <span class="checkmark"></span>
-                  Estructuras Metálicas
-                </label>
-                <label class="checkbox-item">
-                  <input type="checkbox" name="servicio" value="instalaciones">
-                  <span class="checkmark"></span>
-                  Instalaciones Eléctricas/Sanitarias
-                </label>
+            <fieldset class="field full">
+              <legend>Servicios que necesitas</legend>
+              <div class="chips">
+                <label class="chip"><input type="checkbox" name="servicio" value="Construcción nueva"><span>Construcción nueva</span></label>
+                <label class="chip"><input type="checkbox" name="servicio" value="Remodelación"><span>Remodelación</span></label>
+                <label class="chip"><input type="checkbox" name="servicio" value="Diseño arquitectónico"><span>Diseño arquitectónico</span></label>
+                <label class="chip"><input type="checkbox" name="servicio" value="Acabados y pintura"><span>Acabados y pintura</span></label>
+                <label class="chip"><input type="checkbox" name="servicio" value="Estructuras metálicas"><span>Estructuras metálicas</span></label>
+                <label class="chip"><input type="checkbox" name="servicio" value="Instalaciones eléctricas y sanitarias"><span>Instalaciones eléctricas y sanitarias</span></label>
               </div>
+            </fieldset>
+
+            <div class="field full">
+              <div class="budget-row">
+                <label for="budget">Presupuesto aproximado</label>
+                <output id="budgetVal" for="budget">S/ 50,000</output>
+              </div>
+              <input type="range" id="budget" name="budget" min="10000" max="500000" step="5000" value="50000">
+              <div class="range-ends"><span>S/ 10,000</span><span>S/ 500,000 o más</span></div>
             </div>
 
-            <div class="form-field full">
-              <label>Presupuesto Aproximado (S/.)</label>
-              <div class="budget-display">
-                <span>Rango estimado</span>
-                <span class="budget-value" id="budgetVal">S/. 50,000</span>
-              </div>
-              <input type="range" id="budget" min="10000" max="500000" step="5000" value="50000" oninput="updateBudget(this.value)">
-              <div style="display:flex;justify-content:space-between;margin-top:6px;font-size:11px;color:var(--gray)">
-                <span>S/. 10,000</span>
-                <span>S/. 500,000+</span>
-              </div>
-            </div>
-
-            <div class="form-field full">
-              <label>Describe Tu Proyecto</label>
-              <textarea id="descripcion" placeholder="Cuéntanos más sobre tu proyecto, ideas especiales, requerimientos técnicos, etc..."></textarea>
+            <div class="field full">
+              <label for="descripcion">Describe tu proyecto <span class="opt">(opcional)</span></label>
+              <textarea id="descripcion" name="descripcion" rows="4" placeholder="Por ejemplo: casa de 2 pisos en terreno de 160 m², ya tengo planos de arquitectura."></textarea>
             </div>
           </div>
 
-          <button class="form-submit" onclick="enviarCotizacion()">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-            Enviar Cotización por WhatsApp
-          </button>
-          <p class="form-note">🔒 Tu información es confidencial y usada solo para contactarte</p>
-        </div>
+          <p class="form-error" id="formError" role="alert" hidden></p>
 
-        <div class="success-msg" id="successMsg">
-          <div class="success-icon">✅</div>
-          <h3>¡Mensaje Enviado!</h3>
-          <p>Tu cotización fue enviada a Miguel Flores vía WhatsApp.<br>Te contactaremos en menos de 24 horas.</p>
-          <br>
-          <a href="https://wa.me/51944455738" target="_blank" class="btn-primary" style="display:inline-flex;margin-top:8px">Abrir WhatsApp →</a>
+          <button type="submit" class="btn btn-block">Enviar solicitud por WhatsApp</button>
+          <p class="form-note">Usamos tus datos solo para responder esta solicitud.</p>
+        </form>
+
+        <div class="form-done" id="formDone" hidden tabindex="-1">
+          <h3>Solicitud enviada</h3>
+          <p>Se abrió WhatsApp con tu solicitud. Si no se envió, presiona el botón y vuelve a intentarlo. Te respondemos en menos de 24 horas.</p>
+          <a href="https://wa.me/51944455738" target="_blank" rel="noopener" class="btn">Abrir WhatsApp</a>
         </div>
       </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <a href="#" class="brand brand-light" aria-label="Constructora Proyectos del Futuro E.I.R.L., inicio">
+        <span class="brand-mark"><img src="assets/img/brand/logo-icono.webp" width="96" height="96" alt=""></span>
+        <span class="brand-text">
+          <strong>Proyectos del Futuro</strong>
+          <span>Constructora E.I.R.L.</span>
+        </span>
+      </a>
+      <p class="footer-about">Empresa constructora con 15 años de experiencia en obras residenciales, comerciales e industriales en Lima, Piura y el resto del Perú.</p>
+    </div>
+    <nav aria-label="Servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li><a href="#servicios">Construcción residencial</a></li>
+        <li><a href="#servicios">Obras comerciales</a></li>
+        <li><a href="#servicios">Remodelaciones</a></li>
+        <li><a href="#servicios">Diseño arquitectónico</a></li>
+        <li><a href="#servicios">Proyectos industriales</a></li>
+        <li><a href="#servicios">Acabados</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contacto</h2>
+      <ul>
+        <li><a href="tel:+51944455738">+51 944 455 738</a></li>
+        <li><a href="https://wa.me/51944455738" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li>Lima, Perú</li>
+        <li>Lunes a sábado, 8:00 a 18:00</li>
+      </ul>
     </div>
   </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="#" class="nav-logo">
-          <div class="logo-icon">
-            <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22" fill="none" stroke="#0A0A0A" stroke-width="2"/></svg>
-          </div>
-          <div class="logo-text">
-            <span class="logo-name">Ingenieria Miguel Flores</span>
-            <span class="logo-sub">Construcciones</span>
-          </div>
-        </a>
-        <p class="footer-desc">Construyendo el futuro del Perú con calidad, innovación y compromiso. Más de 15 años transformando proyectos en realidades.</p>
-        <div class="social-links">
-          <a href="https://wa.me/51944455738" target="_blank" class="social-link" title="WhatsApp">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </a>
-          <a href="#" class="social-link" title="Facebook">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </a>
-          <a href="#" class="social-link" title="Instagram">
-            <svg viewBox="0 0 24 24" width="18" height="18"><defs><linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#f09433"/><stop offset="25%" style="stop-color:#e6683c"/><stop offset="50%" style="stop-color:#dc2743"/><stop offset="75%" style="stop-color:#cc2366"/><stop offset="100%" style="stop-color:#bc1888"/></linearGradient></defs><path fill="url(#ig-grad)" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="#" class="social-link" title="TikTok">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.94a8.18 8.18 0 004.78 1.52V7.01a4.84 4.84 0 01-1.01-.32z"/></svg>
-          </a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Servicios</h4>
-        <ul class="footer-links">
-          <li><a href="#servicios">Construcción Residencial</a></li>
-          <li><a href="#servicios">Obras Comerciales</a></li>
-          <li><a href="#servicios">Remodelaciones</a></li>
-          <li><a href="#servicios">Diseño Arquitectónico</a></li>
-          <li><a href="#servicios">Proyectos Industriales</a></li>
-          <li><a href="#servicios">Acabados Premium</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Empresa</h4>
-        <ul class="footer-links">
-          <li><a href="#nosotros">Quiénes Somos</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#proceso">Nuestro Proceso</a></li>
-          <li><a href="#testimonios">Testimonios</a></li>
-          <li><a href="#cotizacion">Cotizar Proyecto</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contacto</h4>
-        <ul class="footer-links">
-          <li><a href="tel:+51944455738">📞 +51 944 455 738</a></li>
-          <li><a href="https://wa.me/51944455738" target="_blank">📱 WhatsApp</a></li>
-          <li><a href="#"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--gold)"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Lima, Perú</a></li>
-          <li><a href="#">🕐 Lun–Sáb 8am–6pm</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2025 <span>Ingenieria Miguel Flores Construcciones</span>. Todos los derechos reservados.</p>
-      <p>Hecho con ❤️ en <span>Lima, Perú</span></p>
-    </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year">2026</span> Constructora Proyectos del Futuro E.I.R.L. Todos los derechos reservados.</p>
   </div>
 </footer>
 
-<!-- FLOATING WA BUTTON -->
-<a href="https://wa.me/51944455738?text=Hola%20Miguel%2C%20me%20interesa%20una%20cotización" target="_blank" class="wa-float">
-  <div class="wa-tooltip">¡Escríbenos!</div>
-  <svg viewBox="0 0 24 24" fill="#ffffff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+<a href="https://wa.me/51944455738?text=Hola%2C%20quisiera%20cotizar%20un%20proyecto" target="_blank" rel="noopener" class="wa-float" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.5 0 .2 5.3.2 11.9c0 2.1.5 4.1 1.6 5.9L.1 24l6.3-1.7a11.9 11.9 0 0 0 5.7 1.4c6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.3-6.2-3.5-8.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.9 9.9 0 0 1-1.5-5.3c0-5.4 4.4-9.9 9.9-9.9 2.6 0 5.1 1 7 2.9a9.8 9.8 0 0 1 2.9 7c0 5.5-4.5 9.9-10 9.9zm5.4-7.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4z"/></svg>
 </a>
 
-<script src= "script.js"></script>
-
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
